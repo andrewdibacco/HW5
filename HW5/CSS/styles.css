@@ -1,0 +1,95 @@
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.white{
+    background-color: white;
+}
+
+
+.sereneNic{
+    background-image: url(../Images/nicCage1.jpg);
+    background-size:cover;
+        
+}
+
+.crazedNic{
+    background-image: url(../Images/nicCage2.jpg);
+    background-size: cover;
+}
+
+.handsomeNic{
+    background-image: url(../Images/nicCage3.jpg);
+    background-size: cover;
+}
+
+
+h1{
+    text-align: center;
+}
+
+div#slotResults{
+    border: 10px solid black;
+    width: 300px;
+    height: 400px;
+}
+
+div#slotResults span{
+    display: inline-block;
+    width: 25%;
+    height: 45px;
+    border: 5px solid black;
+    margin-left: 9px;
+    position: relative;
+    top: 7px;
+    
+}
+
+button{
+    transition: all 0.1s ease-out 0s;
+    background-color: lightgreen;
+    color: white;
+}
+
+.hover{
+    transition: all 0.5s ease-out 0s;
+    background-color: darkgreen;
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    font-size: 19px;
+    
+    
+}
+
+#balance{
+    position: absolute;
+    left: 225px;
+}
+
+.quitMsg{
+    display: none;
+}
+
+img#logo{
+    position: relative;
+    left: 5px;
+    top: -9px;
+}
+
+img#reel{
+    position: absolute;
+    top: -9px;
+    left: -57px;
+    z-index: -1;
+    
+}
+
+#spclMsg{
+    font-size: 30px;
+    color: red;
+}
